@@ -9,6 +9,6 @@ class WelcomeController {
 
     @RequestMapping("/")
     public String welcome() {
-        return "Welcome to Petclinic";
+        return "welcome";
     }
 }
